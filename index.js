@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   fs.readFile('index.html', 'utf8', (err, data) => {
     if(err){
       res.writeHead(404,{
-        'Content-Type': 'text/plain; charset=utf-8'
+        'Content-Type': 'text/html; charset=utf-8'
       });
       res.write('Server Error!');
       res.end();
