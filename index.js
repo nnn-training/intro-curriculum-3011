@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
      <span style="color:orange;">orangeorange &nbsp; &nbsp; &nbsp; &nbsp;</span><br> 
      <span style="color:red;">redredredred &nbsp; &nbsp; &nbsp; &nbsp;</span><br> 
      <span style="color:purple;">purplepurple</span><br> 
-     <span style="color:blue;">blue &nbsp; blue</span>  `
+     <span style="color:blue;">blue &nbsp; blue</span></h1></body></html>`
   );
   res.end();
 });
