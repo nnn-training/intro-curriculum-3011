@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
       </body>
     </html>`
   );
-  res.end();
+  res.end('私のWebページです！');
 });
 const port = 8000;
 server.listen(port, () => {
