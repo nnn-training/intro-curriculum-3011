@@ -2,10 +2,10 @@
 const http = require('node:http');
 const server = http.createServer((req, res) => {
   res.writeHead(200, {
-    'Content-Type': 'text/plain; charset=utf-8'
-  });
-  res.write(req.headers['user-agent']);
-  res.end();
+    'Content-Type': 'text/html; charset=utf-8'  });
+  res.write(
+    '<!DOCTYPE html><html lang="ja"><body><h1>害児</h1></body></html>'
+  );  res.end();
 });
 const port = 8000;
 server.listen(port, () => {
