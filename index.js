@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
     `<!DOCTYPE html>
 <html lang="ja">
   <body>
-    <h1>猪鼻さん俺はまだ好きだよ。でもあなたは全然すきじゃなくて笑える。</h1>
+    <h1>俺少しはwebとか詳しくなってるかも!!</h1>
   </body>
 </html>`
   );
